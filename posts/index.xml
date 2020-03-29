@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on </title>
+    <title>Posts on Antiga Shipyard</title>
     <link>https://mengino.github.io/posts/</link>
-    <description>Recent content in Posts on </description>
+    <description>Recent content in Posts on Antiga Shipyard</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
     <lastBuildDate>Sun, 29 Mar 2020 07:26:11 +0000</lastBuildDate>
     
 	<atom:link href="https://mengino.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -12,10 +13,10 @@
     
     <item>
       <title>Test</title>
-      <link>https://mengino.github.io/posts/test/</link>
+      <link>https://mengino.github.io/2020/test/</link>
       <pubDate>Sun, 29 Mar 2020 07:26:11 +0000</pubDate>
       
-      <guid>https://mengino.github.io/posts/test/</guid>
+      <guid>https://mengino.github.io/2020/test/</guid>
       <description>foobar2000 is a good music player!</description>
     </item>
     
