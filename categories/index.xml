@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Antiga Shipyard</title>
+    <title>Categories on </title>
     <link>https://mengino.github.io/categories/</link>
-    <description>Recent content in Categories on Antiga Shipyard</description>
+    <description>Recent content in Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
+    <lastBuildDate>Sun, 29 Mar 2020 07:26:11 +0000</lastBuildDate>
     
 	<atom:link href="https://mengino.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
