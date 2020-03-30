@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Antiga Shipyard</title>
-    <link>https://mengino.github.io/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Antiga Shipyard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 29 Mar 2020 07:26:11 +0000</lastBuildDate>
     
-	<atom:link href="https://mengino.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>bar</title>
-      <link>https://mengino.github.io/categories/bar/</link>
+      <link>/categories/bar/</link>
       <pubDate>Sun, 29 Mar 2020 07:26:11 +0000</pubDate>
       
-      <guid>https://mengino.github.io/categories/bar/</guid>
+      <guid>/categories/bar/</guid>
       <description></description>
     </item>
     
     <item>
       <title>foo</title>
-      <link>https://mengino.github.io/categories/foo/</link>
+      <link>/categories/foo/</link>
       <pubDate>Sun, 29 Mar 2020 07:26:11 +0000</pubDate>
       
-      <guid>https://mengino.github.io/categories/foo/</guid>
+      <guid>/categories/foo/</guid>
       <description></description>
     </item>
     

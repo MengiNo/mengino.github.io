@@ -63,4 +63,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://mengino.github.io/sitemap.xml
+Sitemap: /sitemap.xml

@@ -2,7 +2,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://mengino.github.io/about/</loc>
+      <loc>/about/</loc>
       
       <lastmod>2020-03-29T08:43:58+00:00</lastmod>
       
@@ -12,7 +12,7 @@
     </url>
   
     <url>
-      <loc>https://mengino.github.io/</loc>
+      <loc>/</loc>
       
       <lastmod>2020-03-29T08:43:58+00:00</lastmod>
       
@@ -24,7 +24,7 @@
     </url>
   
     <url>
-      <loc>https://mengino.github.io/categories/</loc>
+      <loc>/categories/</loc>
       
       <lastmod>2020-03-29T07:26:11+00:00</lastmod>
       
@@ -36,7 +36,7 @@
     </url>
   
     <url>
-      <loc>https://mengino.github.io/posts/</loc>
+      <loc>/posts/</loc>
       
       <lastmod>2020-03-29T07:26:11+00:00</lastmod>
       
@@ -48,7 +48,7 @@
     </url>
   
     <url>
-      <loc>https://mengino.github.io/tags/</loc>
+      <loc>/tags/</loc>
       
       <lastmod>2020-03-29T07:26:11+00:00</lastmod>
       
@@ -60,7 +60,7 @@
     </url>
   
     <url>
-      <loc>https://mengino.github.io/2020/test/</loc>
+      <loc>/2020/test/</loc>
       
       <lastmod>2020-03-29T07:26:11+00:00</lastmod>
       
@@ -70,19 +70,7 @@
     </url>
   
     <url>
-      <loc>https://mengino.github.io/categories/bar/</loc>
-      
-      <lastmod>2020-03-29T07:26:11+00:00</lastmod>
-      
-      
-      
-      <priority>0</priority>
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://mengino.github.io/tags/cat/</loc>
+      <loc>/categories/bar/</loc>
       
       <lastmod>2020-03-29T07:26:11+00:00</lastmod>
       
@@ -94,7 +82,7 @@
     </url>
   
     <url>
-      <loc>https://mengino.github.io/tags/dog/</loc>
+      <loc>/tags/cat/</loc>
       
       <lastmod>2020-03-29T07:26:11+00:00</lastmod>
       
@@ -106,7 +94,19 @@
     </url>
   
     <url>
-      <loc>https://mengino.github.io/categories/foo/</loc>
+      <loc>/tags/dog/</loc>
+      
+      <lastmod>2020-03-29T07:26:11+00:00</lastmod>
+      
+      
+      
+      <priority>0</priority>
+      
+      
+    </url>
+  
+    <url>
+      <loc>/categories/foo/</loc>
       
       <lastmod>2020-03-29T07:26:11+00:00</lastmod>
       
