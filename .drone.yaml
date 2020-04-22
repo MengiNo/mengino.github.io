@@ -14,7 +14,8 @@ steps:
       password:
         from_secret: repo_password
       # auto_tag: true
-      tags: latest
+      tags: 
+        - latest
 
   - name: deploy
     pull: if-not-exists
