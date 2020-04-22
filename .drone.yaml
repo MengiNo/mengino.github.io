@@ -29,6 +29,7 @@ steps:
     deployment: test-blog
     repo: ccr.ccs.tencentyun.com/mengino-test/hugo
     container: test-blog
+    tag: ${DRONE_TAG=latest}
     when:
       event: [tag]
     depends_on:
