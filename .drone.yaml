@@ -13,9 +13,7 @@ steps:
         from_secret: repo_username
       password:
         from_secret: repo_password
-      # auto_tag: true
-      # tags: 
-      #   - latest
+      tags: latest
 
   - name: deploy
     pull: if-not-exists
@@ -28,4 +26,3 @@ steps:
     deployment: test-blog
     repo: ccr.ccs.tencentyun.com/mengino-test/hugo
     container: test-blog
-    # tag: mytag
