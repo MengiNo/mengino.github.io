@@ -6,17 +6,17 @@ steps:
   - name: publish
     pull: if-not-exists
     image: plugins/docker
-    setting:
+    settings:
       repo: ccr.ccs.tencentyun.com/mengino-test/hugo
       registry: ccr.ccs.tencentyun.com
       username: 
         from_secret: repo_username
       password:
         from_secret: repo_password
-      tags: latest
+      auto_tag: true
+      # tags: ${DRONE_TAG=latest}
 
   - name: deploy
-    pull: if-not-exists
     image: quay.io/honestbee/drone-kubernetes
     kubernetes_server:
       from_secret: master_server
@@ -26,3 +26,4 @@ steps:
     deployment: test-blog
     repo: ccr.ccs.tencentyun.com/mengino-test/hugo
     container: test-blog
+    # tag: mytag
