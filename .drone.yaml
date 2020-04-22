@@ -13,10 +13,10 @@ steps:
         from_secret: repo_username
       password:
         from_secret: repo_password
-      # auto_tag: true
-      tags: ${DRONE_TAG=latest}
+      auto_tag: true
 
   - name: deploy
+    pull: if-not-exists
     image: quay.io/honestbee/drone-kubernetes
     kubernetes_server:
       from_secret: master_server
@@ -26,4 +26,3 @@ steps:
     deployment: test-blog
     repo: ccr.ccs.tencentyun.com/mengino-test/hugo
     container: test-blog
-    # tag: mytag
