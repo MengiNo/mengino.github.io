@@ -14,7 +14,7 @@ steps:
       password:
         from_secret: repo_password
       # auto_tag: true
-      # tags: ${DRONE_TAG=latest}
+      tags: ${DRONE_TAG=latest}
 
   - name: deploy
     image: quay.io/honestbee/drone-kubernetes
