@@ -13,7 +13,7 @@ steps:
         from_secret: repo_username
       password:
         from_secret: repo_password
-      auto_tag: true
+      # auto_tag: true
       # tags: ${DRONE_TAG=latest}
 
   - name: deploy
