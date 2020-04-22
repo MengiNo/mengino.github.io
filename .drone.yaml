@@ -1,0 +1,29 @@
+kind: pipeline
+type: kubernetes
+name: default
+
+steps:
+  - name: publish
+    pull: if-not-exists
+    image: plugins/docker
+    setting:
+      repo: ccr.ccs.tencentyun.com/mengino-test/hugo
+      registry: ccr.ccs.tencentyun.com
+      username: 
+        from_secret: repo_username
+      password:
+        from_secret: repo_password
+      auto_tag: true
+      # tags: ${DRONE_TAG=latest}
+
+  - name: deploy
+    image: quay.io/honestbee/drone-kubernetes
+    kubernetes_server:
+      from_secret: master_server
+    kubernetes_token:
+      from_secret: master_token
+    namespace: default
+    deployment: test-blog
+    repo: ccr.ccs.tencentyun.com/mengino-test/hugo
+    container: test-blog
+    # tag: mytag
