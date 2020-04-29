@@ -25,6 +25,8 @@ steps:
       from_secret: master_server
     kubernetes_token:
       from_secret: master_token
+    kubernetes_cert:
+      from_secret: master_cert
     namespace: default
     deployment: test-blog
     repo: ccr.ccs.tencentyun.com/mengino-test/hugo
